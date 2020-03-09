@@ -33,23 +33,25 @@ class _HomePageState extends State<HomePage> {
             alignment: Alignment.center,
             child: HorizontalTabLayout(),
           ),
-          Padding(
-            padding: EdgeInsets.only(left:60.0,top:50.0,bottom: 50.0),
-            child: ListView(
-              scrollDirection: Axis.horizontal,
-
-              children: <Widget>[
-                Container(
-                  height: 300.0,
-                  width: 280.0,
-                  color: Colors.red,
-                ),
-                Container(
-                  height: 300.0,
-                  width: 280.0,
-                  color: Colors.green,
-                )
-              ],
+          Center(            
+            child: Container(
+               height: 300.0,
+                    width: 280.0,
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: <Widget>[
+                  Container(
+                    height: 300.0,
+                    width: 280.0,
+                    color: Colors.red,
+                  ),
+                  Container(
+                    height: 300.0,
+                    width: 280.0,
+                    color: Colors.green,
+                  )
+                ],
+              ),
             ),
           )
 
