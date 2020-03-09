@@ -29,6 +29,20 @@ class Fondo extends StatelessWidget {
                   
                 ),
               ),
+               Positioned(
+                right: -50,
+                top: -100,
+                child: Container(
+                  width: height/2,
+                  height: height/2,
+                  decoration: BoxDecoration(
+                    color: Colors.amber[200],
+                    shape: BoxShape.circle
+                  ),
+                  
+                ),
+              ),
+
             ],
           );
         },
